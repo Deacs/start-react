@@ -41,7 +41,7 @@ class Form extends React.Component {
           <input type="text" 
 					value={this.state.userName} 
           onChange={(event) => {this.setState({ userName: event.target.value })}}
-          placeholder=""Github username/>
+          placeholder="Github username"/>
         <button type="submit">Add card</button>
     	</form>
     );
